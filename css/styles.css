@@ -91,3 +91,44 @@ nav ul{
 .hero h3{
     padding: 5rem;
 }
+
+/* Services Section */
+.services-head{
+    min-height: 40vh;
+    padding: 3rem;
+    background: #343c44;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.services-head h3{
+    padding: 1rem;
+}
+.cards{
+    min-height: 60vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    text-align: center;
+    flex: 1 1 25rem;
+    min-height: 40rem;
+    margin: 2rem 5rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+.card img{
+    max-width: 15%;
+    margin: 2rem;
+}
+.card h4, .card p {
+  padding: 1rem;
+  line-height: 1.8;
+}
+.card-icon{
+    background: #FCA311;
+}

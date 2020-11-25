@@ -196,3 +196,45 @@ footer ul{
     align-items: center;
     justify-content: space-between;
 }
+
+/* Media Queries */
+@media screen and (max-width: 420px){ /* Mobile Friendly*/
+    html{
+        font-size: 45%;
+    }
+    nav{
+        text-align: center;
+    }
+    #logo{
+        padding: 2rem;
+    }
+    .form-wrapper{
+        width: 100%;
+    }
+    footer{
+        text-align: center;
+    }
+    footer h5{
+        padding-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 935px){ /* Tablet Friendly */
+    html{
+        font-size: 55%;
+    }
+
+    nav{
+        text-align: center;
+        min-height: 5vh;
+    }
+    .hero{
+        min-height: 75vh;
+    }
+    .services-head{
+        min-height: 25vh;
+    }
+    .cards{
+        min-height: 75vh;
+    }
+}

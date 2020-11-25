@@ -147,7 +147,7 @@ nav ul{
 }
 .form-wrapper{
     width: 60%;
-    background: rgb(20, 33, 61, 0.8);
+    background: rgb(52, 60, 68, 0.8);
     border-radius: 20px;
 }
 .form-head{
@@ -173,3 +173,26 @@ nav ul{
 }
 
 /* Footer Section */
+footer{
+    color: #fff;
+    background: rgba(20, 33, 61, 1);
+}
+.footer-wrapper{
+    display: flex;
+    padding: 2rem;
+    margin: auto;
+    width: 90%;
+    align-items: center;
+    min-height: 10vh;
+    flex-wrap: wrap;
+}
+footer h5{
+    flex: 1 1 40rem;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    flex: 1 1 20rem;
+    align-items: center;
+    justify-content: space-between;
+}

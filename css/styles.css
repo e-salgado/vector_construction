@@ -132,3 +132,44 @@ nav ul{
 .card-icon{
     background: #FCA311;
 }
+
+/* Contact Section */
+#contact{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url('../img/sitting-at-table.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.form-wrapper{
+    width: 60%;
+    background: rgb(20, 33, 61, 0.8);
+    border-radius: 20px;
+}
+.form-head{
+    text-align: center;
+    padding: 4rem;
+}
+.name-form, .email-form{
+    text-align: center;
+    padding: 3rem;
+}
+.form-wrapper label{
+    margin: 0rem 3rem;
+}
+.form-wrapper button{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    padding: 2rem;
+    margin-top: 6rem;
+}
+.form-wrapper input{
+    padding: 1rem 3rem;
+}
+
+/* Footer Section */

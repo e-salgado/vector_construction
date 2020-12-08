@@ -3,3 +3,9 @@ Vector Construction is a basic website for a construction company. This website 
 
 # Showcase
 ![](preview/showcase.png)
+
+# Services
+![](preview/services.png)
+
+# Contact
+![](preview/contact.png)
